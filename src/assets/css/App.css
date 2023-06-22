@@ -1,0 +1,43 @@
+.App {
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid black;
+}
+
+h1{
+  font-size: 32px;
+  font-weight: 800;
+  padding: 0 15px;
+}
+
+h2{
+  font-size: 22px;
+  padding: 0 15px;
+}
+
+.hearder{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0 15px;
+}
+
+.hearder button:hover{
+  background-color: rgb(4, 101, 203, 0.7);
+}
+
+.book-list {
+  height: 500px;
+  overflow-y: auto;
+  position: relative;
+  padding: 15px;
+}
+
+.list-header {
+  position: sticky;
+  top: 0;
+  background-color: white; /* prevent content behind from being visible */
+}

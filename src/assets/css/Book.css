@@ -1,0 +1,17 @@
+.book {
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book img {
+    object-fit: contain;
+    max-width: 50px;
+    max-height: 75px;
+}
+
+.img-wrap label{
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
